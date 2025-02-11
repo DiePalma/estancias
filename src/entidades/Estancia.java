@@ -21,7 +21,9 @@ public class Estancia {
         this.fechaHasta = fechaHasta;
     }
 
-    public Estancia(String nombreHuesped, LocalDate fechaDesde, LocalDate fechaHasta) {
+    public Estancia(int idCliente, int idCasa, String nombreHuesped, LocalDate fechaDesde, LocalDate fechaHasta) {
+        this.idCliente = idCliente;
+        this.idCasa= idCasa;
         this.nombreHuesped = nombreHuesped;
         this.fechaDesde = fechaDesde;
         this.fechaHasta = fechaHasta;
